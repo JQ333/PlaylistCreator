@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The AI Playlist Creator</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>The AI Playlist Creator</h1>
+        <div class="mood-selector">
+            <label for="mood">Select Activity:</label>
+            <select id="mood">
+                <option value="relaxing">Relaxing</option>
+                <option value="workingout">Working Out</option>
+                <option value="partying">Partying</option>
+                <option value="focusing">Focusing</option>
+            </select>
+            <button id="generate">Generate Playlist</button>
+        </div>
+        <div id="loading" style="display: none;">Loading...</div>
+        <div id="playlist"></div>
+        <canvas id="visualizationCanvas"></canvas>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+</html>

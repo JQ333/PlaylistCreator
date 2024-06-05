@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.mood-selector {
+    margin-bottom: 20px;
+}
+#playlist {
+    margin-top: 20px;
+}
+#visualizationCanvas {
+    width: 100%;
+    height: 200px;
+    background: #000;
+}
+#loading {
+    text-align: center;
+    font-size: 1.5em;
+    color: #333;
+    margin-top: 20px;
+}
